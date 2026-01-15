@@ -18,7 +18,6 @@ client.workspace = true
 collections.workspace = true
 command_palette_hooks.workspace = true
 editor.workspace = true
-edit_prediction.workspace = true
 futures.workspace = true
 gpui.workspace = true
 itertools.workspace = true
@@ -37,7 +36,6 @@ zed_actions.workspace = true
 
 [dev-dependencies]
 editor = { workspace = true, features = ["test-support"] }
-release_channel.workspace = true
 gpui = { workspace = true, features = ["test-support"] }
 semver.workspace = true
 util = { workspace = true, features = ["test-support"] }

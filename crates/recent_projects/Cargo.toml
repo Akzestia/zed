@@ -19,7 +19,6 @@ test-support = ["remote/test-support", "project/test-support", "workspace/test-s
 [dependencies]
 anyhow.workspace = true
 askpass.workspace = true
-auto_update.workspace = true
 db.workspace = true
 editor.workspace = true
 extension_host.workspace = true
@@ -36,7 +35,6 @@ ordered-float.workspace = true
 paths.workspace = true
 picker.workspace = true
 project.workspace = true
-release_channel.workspace = true
 remote.workspace = true
 semver.workspace = true
 serde.workspace = true
@@ -44,7 +42,6 @@ serde_json.workspace = true
 settings.workspace = true
 smol.workspace = true
 task.workspace = true
-telemetry.workspace = true
 theme.workspace = true
 ui.workspace = true
 util.workspace = true
@@ -57,7 +54,6 @@ indoc.workspace = true
 windows-registry = "0.6.0"
 
 [dev-dependencies]
-dap.workspace = true
 editor = { workspace = true, features = ["test-support"] }
 extension.workspace = true
 fs.workspace = true
@@ -65,7 +61,6 @@ gpui = { workspace = true, features = ["test-support"] }
 http_client.workspace = true
 language = { workspace = true, features = ["test-support"] }
 project = { workspace = true, features = ["test-support"] }
-release_channel.workspace = true
 remote = { workspace = true, features = ["test-support"] }
 remote_server.workspace = true
 serde_json.workspace = true

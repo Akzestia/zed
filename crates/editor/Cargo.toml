@@ -37,7 +37,6 @@ client.workspace = true
 clock.workspace = true
 collections.workspace = true
 convert_case.workspace = true
-dap.workspace = true
 db.workspace = true
 buffer_diff.workspace = true
 emojis.workspace = true
@@ -49,7 +48,6 @@ fs.workspace = true
 git.workspace = true
 gpui.workspace = true
 indoc.workspace = true
-edit_prediction_types.workspace = true
 itertools.workspace = true
 language.workspace = true
 linkify.workspace = true
@@ -75,7 +73,6 @@ smol.workspace = true
 snippet.workspace = true
 sum_tree.workspace = true
 task.workspace = true
-telemetry.workspace = true
 text.workspace = true
 time.workspace = true
 theme.workspace = true
@@ -108,7 +105,6 @@ lsp = { workspace = true, features = ["test-support"] }
 markdown = { workspace = true, features = ["test-support"] }
 multi_buffer = { workspace = true, features = ["test-support"] }
 project = { workspace = true, features = ["test-support"] }
-release_channel.workspace = true
 rand.workspace = true
 semver.workspace = true
 settings = { workspace = true, features = ["test-support"] }

@@ -28,8 +28,6 @@ clap.workspace = true
 client.workspace = true
 collections.workspace = true
 crashes.workspace = true
-dap_adapters.workspace = true
-debug_adapter_extension.workspace = true
 env_logger.workspace = true
 extension.workspace = true
 extension_host.workspace = true
@@ -52,7 +50,6 @@ node_runtime.workspace = true
 paths.workspace = true
 project.workspace = true
 proto.workspace = true
-release_channel.workspace = true
 remote.workspace = true
 reqwest_client.workspace = true
 rpc.workspace = true
@@ -79,10 +76,8 @@ minidumper.workspace = true
 
 [dev-dependencies]
 action_log.workspace = true
-agent = { workspace = true, features = ["test-support"] }
 client = { workspace = true, features = ["test-support"] }
 clock = { workspace = true, features = ["test-support"] }
-dap = { workspace = true, features = ["test-support"] }
 editor = { workspace = true, features = ["test-support"] }
 workspace = { workspace = true, features = ["test-support"] }
 fs = { workspace = true, features = ["test-support"] }
@@ -94,9 +89,7 @@ pretty_assertions.workspace = true
 project = { workspace = true, features = ["test-support"] }
 remote = { workspace = true, features = ["test-support"] }
 theme = { workspace = true, features = ["test-support"] }
-language_model = { workspace = true, features = ["test-support"] }
 lsp = { workspace = true, features = ["test-support"] }
-prompt_store.workspace = true
 unindent.workspace = true
 serde_json.workspace = true
 zlog.workspace = true
